@@ -1,0 +1,12 @@
+# remove image
+docker rmi 283796265/findbeans:0.0.1
+
+# docker build
+mvn clean && mvn install dockerfile:build
+
+# create container
+docker run --name findbeans_0.0.1 -d -p 8080:8080 283796265/findbeans:0.0.1
+
+# enter container
+docker exec -it findbeans_0.0.1 sh
+
