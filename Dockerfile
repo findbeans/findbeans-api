@@ -1,7 +1,14 @@
 FROM openjdk:8-jdk-alpine
-VOLUME /tmp
+
+MAINTAINER Zhang Yangming "283796265@qq.com"
+
+WORKDIR /data
+
 COPY target/findbeans-0.0.1.jar /
-RUN mkdir /home/findbeans \
-    && mv /findbeans-0.0.1.jar /home/findbeans/findbeans.jar
+RUN mkdir -p /data/findbeans \
+    && mv /findbeans-0.0.1.jar /data/findbeans/findbeans.jar
+
+EXPOSE 8080
+
 ENV JAVA_OPTS=""
-ENTRYPOINT [ "sh", "-c", "java $JAVA_OPTS -Djava.security.egd=file:/dev/./urandom -jar /home/findbeans/findbeans.jar" ]
+ENTRYPOINT [ "sh", "-c", "java $JAVA_OPTS -Djava.security.egd=file:/dev/./urandom -jar /data/findbeans/findbeans.jar" ]
