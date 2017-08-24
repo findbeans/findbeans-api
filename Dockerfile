@@ -8,7 +8,7 @@ COPY target/findbeans-0.0.1.jar /
 RUN mkdir -p /data/findbeans \
     && mv /findbeans-0.0.1.jar /data/findbeans/findbeans.jar
 
-EXPOSE 80
+EXPOSE 8080
 
 ENV JAVA_OPTS=""
 ENTRYPOINT [ "sh", "-c", "java $JAVA_OPTS -Djava.security.egd=file:/dev/./urandom -jar /data/findbeans/findbeans.jar" ]
