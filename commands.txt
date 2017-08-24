@@ -5,7 +5,7 @@ docker rmi 283796265/findbeans
 mvn clean && mvn install dockerfile:build
 
 # create container
-docker run --name findbeans -d -p 8080:8080 283796265/findbeans
+docker run --name findbeans -d -p 80:80 283796265/findbeans
 
 # enter container
 docker exec -it findbeans sh
