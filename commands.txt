@@ -13,4 +13,9 @@ docker exec -it findbeans sh
 # push image
 docker push 283796265/findbeans
 
+# start mongo container & expose port to local env
+docker run --name findbeans-mongo -d -p 27017:27017 mongo:3.4.7
+
+# link findbeans to mongo
+docker run --name findbeans -d -p 8080:8080 --link findbeans-mongo:findbeans-mongo 283796265/findbeans
 
