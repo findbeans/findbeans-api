@@ -4,7 +4,7 @@ MAINTAINER Zhang Yangming "283796265@qq.com"
 
 WORKDIR /data
 
-COPY target/findbeans-0.0.1.jar /
+COPY out/findbeans-0.0.1.jar /
 RUN mkdir -p /data/findbeans \
     && mv /findbeans-0.0.1.jar /data/findbeans/findbeans.jar
 

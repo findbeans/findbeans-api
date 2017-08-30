@@ -1,21 +1,57 @@
-# remove image
-docker rmi 283796265/findbeans
+Docker
 
-# docker build
-mvn clean && mvn install dockerfile:build
+    # remove image
+    docker rmi 283796265/findbeans
 
-# create container
-docker run --name findbeans -d -p 8080:8080 283796265/findbeans
+    # docker build
+    mvn clean && mvn install dockerfile:build
 
-# enter container
-docker exec -it findbeans sh
+    # create container
+    docker run --name findbeans -d -p 8080:8080 283796265/findbeans
 
-# push image
-docker push 283796265/findbeans
+    # enter container
+    docker exec -it findbeans sh
 
-# start mongo container & expose port to local env
-docker run --name findbeans-mongo -d -p 27017:27017 mongo:3.4.7
+    # push image
+    docker push 283796265/findbeans
 
-# link findbeans to mongo
-docker run --name findbeans -d -p 8080:8080 --link findbeans-mongo:findbeans-mongo 283796265/findbeans
+    # start mongo container & expose port to local env
+    docker run --name findbeans-mongo -d -p 27017:27017 -v /data/db mongo:3.4.7
 
+    # link findbeans to mongo
+    docker run --name findbeans -d -p 8080:8080 --link findbeans-mongo:findbeans-mongo 283796265/findbeans
+
+    # commit a new image from existed container
+    docker commit -m "Added db:findbeans collection:movie" -a "Zhang Yangming" findbeans-mongo 283796265/findbeans-mongo
+
+    # build from dockerfile
+    docker build -t mongo-test ./mongo
+
+    # compose
+    docker-compose up -d --build
+
+Mongo
+
+    # create db and switch
+    use findbeans
+
+    # create collection
+    db.createCollection("movie")
+
+    # drop collection
+    db.movie.drop()
+
+    # insert document
+    db.movie.insertOne({
+        "rank": "1",
+        "title": "The Shawshank Redemption",
+        "rating": "9.2",
+        "posters": [
+            "https://images-na.ssl-images-amazon.com/images/M/MV5BODU4MjU4NjIwNl5BMl5BanBnXkFtZTgwMDU2MjEyMDE@._V1_SY1000_CR0,0,672,1000_AL_.jpg",
+            "https://images-na.ssl-images-amazon.com/images/M/MV5BMTQ1ODM2MjY3OV5BMl5BanBnXkFtZTgwMTU2MjEyMDE@._V1_.jpg",
+            "https://images-na.ssl-images-amazon.com/images/M/MV5BMTIyODQ2MjgxOF5BMl5BanBnXkFtZTYwMzUzODQ5._V1_.jpg"
+        ]
+    })
+
+    # remove document
+    db.movie.remove({"_id":ObjectId("59a3c847e05992ce02b94278")})
