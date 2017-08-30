@@ -4,13 +4,24 @@ import com.mongodb.MongoClient;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
 import org.bson.Document;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
+import org.springframework.stereotype.Repository;
 
+@Repository
 public class MongoDB {
 
-    private static final MongoClient mongoClient = new MongoClient();
-    private static final MongoDatabase mongoDatabase = mongoClient.getDatabase("findbeans");
+    @Autowired
+    private MongoClient mongoClient;
 
-    // define collections
-    public static final MongoCollection<Document> mongoMovie = MongoDB.mongoDatabase.getCollection("movie");
+    @Bean
+    public MongoDatabase getMongoDatabase() {
+        return mongoClient.getDatabase("findbeans");
+    }
 
+    // define Collections
+    @Bean
+    public MongoCollection<Document> getMongoMovie() {
+        return getMongoDatabase().getCollection("movie");
+    }
 }
