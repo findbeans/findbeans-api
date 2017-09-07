@@ -1,6 +1,8 @@
 package top.findbeans.dao;
 
 import com.google.gson.Gson;
+import com.mongodb.BasicDBObject;
+import com.mongodb.client.FindIterable;
 import com.mongodb.client.MongoCollection;
 import org.bson.Document;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,7 +22,8 @@ public class MovieDao{
 
         List<Movie> movies = new ArrayList<>();
         Gson gson = new Gson();
-        for (Document document : mongoMovie.find()) {
+        FindIterable<Document> documents = mongoMovie.find().sort(new BasicDBObject("rank", 1));
+        for (Document document : documents) {
             movies.add(gson.fromJson(document.toJson(), Movie.class));
         }
         return movies;

@@ -9,8 +9,11 @@ import java.util.List;
  */
 @Data
 public class Movie {
-    private String rank;
+    private Integer rank;
     private String title;
     private String rating;
+    private String director;
+    private String description;
+    private List<String> actors;
     private List<String> posters; // json String, collect 3-5 pictures
 }
