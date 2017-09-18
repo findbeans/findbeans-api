@@ -18,11 +18,11 @@ public class MovieDao{
     @Autowired
     private MongoCollection<Document> mongoMovie;
 
-    public List<Movie> getMovies() {
+    public List<Movie> getMovies(Integer count) {
 
         List<Movie> movies = new ArrayList<>();
         Gson gson = new Gson();
-        FindIterable<Document> documents = mongoMovie.find().sort(new BasicDBObject("rank", 1));
+        FindIterable<Document> documents = mongoMovie.find().limit(count).sort(new BasicDBObject("rank", 1));
         for (Document document : documents) {
             movies.add(gson.fromJson(document.toJson(), Movie.class));
         }
