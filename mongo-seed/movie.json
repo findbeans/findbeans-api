@@ -232,122 +232,122 @@
 { 
     "_id" : ObjectId("59ae4c3c1ccb5826040a3808"), 
     "rating" : "8.8", 
-    "description" : "A nameless first person narrator (", 
-    "title" : "Fight Club", 
-    "rank" : NumberInt(10), 
-    "director" : "David Fincher", 
+    "description" : "A nameless first person narrator (Edward Norton) attends support groups in attempt to subdue his emotional state and relieve his insomniac state. When he meets Marla (Helena Bonham Carter), another fake attendee of support groups, his life seems to become a little more bearable. However when he associates himself with Tyler (Brad Pitt) he is dragged into an underground fight club and soap making scheme. Together the two men spiral out of control and engage in competitive rivalry for love and power. When the narrator is exposed to the hidden agenda of Tyler's fight club, he must accept the awful truth that Tyler may not be who he says he is.",
+    "title" : "Fight Club",
+    "rank" : NumberInt(10),
+    "director" : "David Fincher",
     "actors" : [
-        "Brad Pitt", 
-        "Edward Norton", 
+        "Brad Pitt",
+        "Edward Norton",
         "Meat Loaf"
-    ], 
+    ],
     "posters" : [
-        "https://images-na.ssl-images-amazon.com/images/M/MV5BZGY5Y2RjMmItNDg5Yy00NjUwLThjMTEtNDc2OGUzNTBiYmM1XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX182_CR0,0,182,268_AL_.jpg", 
-        "https://images-na.ssl-images-amazon.com/images/M/MV5BNDY1MzE3MTI0Nl5BMl5BanBnXkFtZTcwNDIwNTI5Mw@@._V1_SY1000_CR0,0,1534,1000_AL_.jpg", 
-        "https://images-na.ssl-images-amazon.com/images/M/MV5BMjk3NTYyMzc4Nl5BMl5BanBnXkFtZTcwODU3ODMzMw@@._V1_SY1000_CR0,0,1413,1000_AL_.jpg", 
-        "https://images-na.ssl-images-amazon.com/images/M/MV5BMTM4MjA2MzI0OF5BMl5BanBnXkFtZTcwNjU3ODMzMw@@._V1_SX1500_CR0,0,1500,999_AL_.jpg", 
-        "https://images-na.ssl-images-amazon.com/images/M/MV5BMTgxNzY2NjIxOV5BMl5BanBnXkFtZTcwNzU3ODMzMw@@._V1_SY1000_CR0,0,1413,1000_AL_.jpg", 
+        "https://images-na.ssl-images-amazon.com/images/M/MV5BZGY5Y2RjMmItNDg5Yy00NjUwLThjMTEtNDc2OGUzNTBiYmM1XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "https://images-na.ssl-images-amazon.com/images/M/MV5BNDY1MzE3MTI0Nl5BMl5BanBnXkFtZTcwNDIwNTI5Mw@@._V1_SY1000_CR0,0,1534,1000_AL_.jpg",
+        "https://images-na.ssl-images-amazon.com/images/M/MV5BMjk3NTYyMzc4Nl5BMl5BanBnXkFtZTcwODU3ODMzMw@@._V1_SY1000_CR0,0,1413,1000_AL_.jpg",
+        "https://images-na.ssl-images-amazon.com/images/M/MV5BMTM4MjA2MzI0OF5BMl5BanBnXkFtZTcwNjU3ODMzMw@@._V1_SX1500_CR0,0,1500,999_AL_.jpg",
+        "https://images-na.ssl-images-amazon.com/images/M/MV5BMTgxNzY2NjIxOV5BMl5BanBnXkFtZTcwNzU3ODMzMw@@._V1_SY1000_CR0,0,1413,1000_AL_.jpg",
         "https://images-na.ssl-images-amazon.com/images/M/MV5BZGY5Y2RjMmItNDg5Yy00NjUwLThjMTEtNDc2OGUzNTBiYmM1XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg"
     ]
 }
-{ 
-    "_id" : ObjectId("59ae4c4c1ccb5826040a3809"), 
-    "rating" : "8.9", 
-    "description" : "Blondie (The Good) is a professional gunslinger who is out trying to earn a few dollars. Angel Eyes (The Bad) is a hit man who always commits to a task and sees it through, as long as he is paid to do so. And Tuco (The Ugly) is a wanted outlaw trying to take care of his own hide. Tuco and Blondie share a partnership together making money off Tuco's bounty, but when Blondie unties the partnership, Tuco tries to hunt down Blondie. When Blondie and Tuco come across a horse carriage loaded with dead bodies, they soon learn from the only survivor (Bill Carson) that he and a few other men have buried a stash of gold in a cemetery. Unfortunately Carson dies and Tuco only finds out the name of the cemetery, while Blondie finds out the name on the grave. Now the two must keep each other alive in order to find the gold. Angel Eyes (who had been looking for Bill Carson) discovers that Tuco and Blondie met with Carson and knows they know the location of the gold. All he needs is for the two to ...", 
-    "title" : "The Good, the Bad and the Ugly", 
-    "rank" : NumberInt(9), 
-    "director" : "Sergio Leone", 
+{
+    "_id" : ObjectId("59ae4c4c1ccb5826040a3809"),
+    "rating" : "8.9",
+    "description" : "Blondie (The Good) is a professional gunslinger who is out trying to earn a few dollars. Angel Eyes (The Bad) is a hit man who always commits to a task and sees it through, as long as he is paid to do so. And Tuco (The Ugly) is a wanted outlaw trying to take care of his own hide. Tuco and Blondie share a partnership together making money off Tuco's bounty, but when Blondie unties the partnership, Tuco tries to hunt down Blondie. When Blondie and Tuco come across a horse carriage loaded with dead bodies, they soon learn from the only survivor (Bill Carson) that he and a few other men have buried a stash of gold in a cemetery. ",
+    "title" : "The Good, the Bad and the Ugly",
+    "rank" : NumberInt(9),
+    "director" : "Sergio Leone",
     "actors" : [
-        "Clint Eastwood", 
-        "Eli Wallach", 
+        "Clint Eastwood",
+        "Eli Wallach",
         "Lee Van Cleef"
-    ], 
+    ],
     "posters" : [
-        "https://images-na.ssl-images-amazon.com/images/M/MV5BOTQ5NDI3MTI4MF5BMl5BanBnXkFtZTgwNDQ4ODE5MDE@._V1_UX182_CR0,0,182,268_AL_.jpg", 
-        "https://images-na.ssl-images-amazon.com/images/M/MV5BMTkyNTAwMzkwMV5BMl5BanBnXkFtZTgwODE0MDg5MTE@._V1_SY1000_CR0,0,1301,1000_AL_.jpg", 
-        "https://images-na.ssl-images-amazon.com/images/M/MV5BNDY2MDYzMzgwNF5BMl5BanBnXkFtZTgwOTE0MDg5MTE@._V1_SY1000_CR0,0,1271,1000_AL_.jpg", 
-        "https://images-na.ssl-images-amazon.com/images/M/MV5BOTU5OTE0ODQ5NF5BMl5BanBnXkFtZTgwMjI0MDg5MTE@._V1_SY1000_CR0,0,1297,1000_AL_.jpg", 
-        "https://images-na.ssl-images-amazon.com/images/M/MV5BMjI4NDAxNjE5M15BMl5BanBnXkFtZTgwMTI0MDg5MTE@._V1_SY1000_CR0,0,1224,1000_AL_.jpg", 
+        "https://images-na.ssl-images-amazon.com/images/M/MV5BOTQ5NDI3MTI4MF5BMl5BanBnXkFtZTgwNDQ4ODE5MDE@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "https://images-na.ssl-images-amazon.com/images/M/MV5BMTkyNTAwMzkwMV5BMl5BanBnXkFtZTgwODE0MDg5MTE@._V1_SY1000_CR0,0,1301,1000_AL_.jpg",
+        "https://images-na.ssl-images-amazon.com/images/M/MV5BNDY2MDYzMzgwNF5BMl5BanBnXkFtZTgwOTE0MDg5MTE@._V1_SY1000_CR0,0,1271,1000_AL_.jpg",
+        "https://images-na.ssl-images-amazon.com/images/M/MV5BOTU5OTE0ODQ5NF5BMl5BanBnXkFtZTgwMjI0MDg5MTE@._V1_SY1000_CR0,0,1297,1000_AL_.jpg",
+        "https://images-na.ssl-images-amazon.com/images/M/MV5BMjI4NDAxNjE5M15BMl5BanBnXkFtZTgwMTI0MDg5MTE@._V1_SY1000_CR0,0,1224,1000_AL_.jpg",
         "https://images-na.ssl-images-amazon.com/images/M/MV5BOTQ5NDI3MTI4MF5BMl5BanBnXkFtZTgwNDQ4ODE5MDE@._V1_SY1000_CR0,0,656,1000_AL_.jpg"
     ]
 }
-{ 
-    "_id" : ObjectId("59ae4c511ccb5826040a380a"), 
-    "rating" : "8.9", 
-    "description" : "The final confrontation between the forces of good and evil fighting for control of the future of Middle-earth. Hobbits: Frodo and Sam reach Mordor in their quest to destroy the \"one ring\", while Aragorn leads the forces of good against Sauron's evil army at the stone city of Minas Tirith.", 
-    "title" : "The Lord of the Rings: The Return of the King", 
-    "rank" : NumberInt(8), 
-    "director" : "Peter Jackson", 
+{
+    "_id" : ObjectId("59ae4c511ccb5826040a380a"),
+    "rating" : "8.9",
+    "description" : "The final confrontation between the forces of good and evil fighting for control of the future of Middle-earth. Hobbits: Frodo and Sam reach Mordor in their quest to destroy the \"one ring\", while Aragorn leads the forces of good against Sauron's evil army at the stone city of Minas Tirith.",
+    "title" : "The Lord of the Rings: The Return of the King",
+    "rank" : NumberInt(8),
+    "director" : "Peter Jackson",
     "actors" : [
-        "Elijah Wood", 
-        "Viggo Mortensen", 
+        "Elijah Wood",
+        "Viggo Mortensen",
         "Ian McKellen"
-    ], 
+    ],
     "posters" : [
-        "https://images-na.ssl-images-amazon.com/images/M/MV5BYWY1ZWQ5YjMtMDE0MS00NWIzLWE1M2YtODYzYTk2OTNlYWZmXkEyXkFqcGdeQXVyNDUyOTg3Njg@._V1_UX182_CR0,0,182,268_AL_.jpg", 
-        "https://images-na.ssl-images-amazon.com/images/M/MV5BNTg3Mzk3NDI0NF5BMl5BanBnXkFtZTcwNDU2MTk2Mw@@._V1_SY1000_CR0,0,651,1000_AL_.jpg", 
-        "https://images-na.ssl-images-amazon.com/images/M/MV5BMTk1ODY0NDg2M15BMl5BanBnXkFtZTcwNTU2MTk2Mw@@._V1_SX1535_CR0,0,1535,999_AL_.jpg", 
-        "https://images-na.ssl-images-amazon.com/images/M/MV5BMTMzNzQwODg2OV5BMl5BanBnXkFtZTcwMzE2MTk2Mw@@._V1_SY1000_CR0,0,1479,1000_AL_.jpg", 
-        "https://images-na.ssl-images-amazon.com/images/M/MV5BMTgzODk0MTQ0Nl5BMl5BanBnXkFtZTcwNDE2MTk2Mw@@._V1_SY1000_CR0,0,1196,1000_AL_.jpg", 
+        "https://images-na.ssl-images-amazon.com/images/M/MV5BYWY1ZWQ5YjMtMDE0MS00NWIzLWE1M2YtODYzYTk2OTNlYWZmXkEyXkFqcGdeQXVyNDUyOTg3Njg@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "https://images-na.ssl-images-amazon.com/images/M/MV5BNTg3Mzk3NDI0NF5BMl5BanBnXkFtZTcwNDU2MTk2Mw@@._V1_SY1000_CR0,0,651,1000_AL_.jpg",
+        "https://images-na.ssl-images-amazon.com/images/M/MV5BMTk1ODY0NDg2M15BMl5BanBnXkFtZTcwNTU2MTk2Mw@@._V1_SX1535_CR0,0,1535,999_AL_.jpg",
+        "https://images-na.ssl-images-amazon.com/images/M/MV5BMTMzNzQwODg2OV5BMl5BanBnXkFtZTcwMzE2MTk2Mw@@._V1_SY1000_CR0,0,1479,1000_AL_.jpg",
+        "https://images-na.ssl-images-amazon.com/images/M/MV5BMTgzODk0MTQ0Nl5BMl5BanBnXkFtZTcwNDE2MTk2Mw@@._V1_SY1000_CR0,0,1196,1000_AL_.jpg",
         "https://images-na.ssl-images-amazon.com/images/M/MV5BYWY1ZWQ5YjMtMDE0MS00NWIzLWE1M2YtODYzYTk2OTNlYWZmXkEyXkFqcGdeQXVyNDUyOTg3Njg@._V1_SY1000_SX668_AL_.jpg"
     ]
 }
-{ 
-    "_id" : ObjectId("59ae4c6b1ccb5826040a380b"), 
-    "rating" : "8.9", 
-    "description" : "Jules Winnfield (", 
-    "title" : "Pulp Fiction", 
-    "rank" : NumberInt(7), 
-    "director" : "Quentin Tarantino", 
+{
+    "_id" : ObjectId("59ae4c6b1ccb5826040a380b"),
+    "rating" : "8.9",
+    "description" : "Jules Winnfield (Samuel L. Jackson) and Vincent Vega (John Travolta) are two hit men who are out to retrieve a suitcase stolen from their employer, mob boss Marsellus Wallace (Ving Rhames). Wallace has also asked Vincent to take his wife Mia (Uma Thurman) out a few days later when Wallace himself will be out of town. Butch Coolidge (Bruce Willis) is an aging boxer who is paid by Wallace to lose his fight. The lives of these seemingly unrelated people are woven together comprising of a series of funny, bizarre and uncalled-for incidents.",
+    "title" : "Pulp Fiction",
+    "rank" : NumberInt(7),
+    "director" : "Quentin Tarantino",
     "actors" : [
-        "John Travolta", 
-        "Uma Thurman", 
+        "John Travolta",
+        "Uma Thurman",
         "Samuel L. Jackson"
-    ], 
+    ],
     "posters" : [
-        "https://images-na.ssl-images-amazon.com/images/M/MV5BMTkxMTA5OTAzMl5BMl5BanBnXkFtZTgwNjA5MDc3NjE@._V1_UX182_CR0,0,182,268_AL_.jpg", 
-        "https://images-na.ssl-images-amazon.com/images/M/MV5BNTY1MzgzOTYxNV5BMl5BanBnXkFtZTgwMDI4OTEwMjE@._V1_SY1000_CR0,0,1463,1000_AL_.jpg", 
-        "https://images-na.ssl-images-amazon.com/images/M/MV5BMTAxMTUyOTY1MTReQTJeQWpwZ15BbWU4MDEyODkxMDIx._V1_SY1000_CR0,0,1463,1000_AL_.jpg", 
-        "https://images-na.ssl-images-amazon.com/images/M/MV5BMTgxNDYxNjMzNF5BMl5BanBnXkFtZTgwODE4OTEwMjE@._V1_SY1000_CR0,0,1463,1000_AL_.jpg", 
-        "https://images-na.ssl-images-amazon.com/images/M/MV5BMTQ2MDk3ODAwMV5BMl5BanBnXkFtZTgwNzE4OTEwMjE@._V1_SY1000_CR0,0,1463,1000_AL_.jpg", 
+        "https://images-na.ssl-images-amazon.com/images/M/MV5BMTkxMTA5OTAzMl5BMl5BanBnXkFtZTgwNjA5MDc3NjE@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "https://images-na.ssl-images-amazon.com/images/M/MV5BNTY1MzgzOTYxNV5BMl5BanBnXkFtZTgwMDI4OTEwMjE@._V1_SY1000_CR0,0,1463,1000_AL_.jpg",
+        "https://images-na.ssl-images-amazon.com/images/M/MV5BMTAxMTUyOTY1MTReQTJeQWpwZ15BbWU4MDEyODkxMDIx._V1_SY1000_CR0,0,1463,1000_AL_.jpg",
+        "https://images-na.ssl-images-amazon.com/images/M/MV5BMTgxNDYxNjMzNF5BMl5BanBnXkFtZTgwODE4OTEwMjE@._V1_SY1000_CR0,0,1463,1000_AL_.jpg",
+        "https://images-na.ssl-images-amazon.com/images/M/MV5BMTQ2MDk3ODAwMV5BMl5BanBnXkFtZTgwNzE4OTEwMjE@._V1_SY1000_CR0,0,1463,1000_AL_.jpg",
         "https://images-na.ssl-images-amazon.com/images/M/MV5BMTkxMTA5OTAzMl5BMl5BanBnXkFtZTgwNjA5MDc3NjE@._V1_SY1000_CR0,0,673,1000_AL_.jpg"
     ]
 }
-{ 
-    "_id" : ObjectId("59ae4c6c1ccb5826040a380c"), 
-    "rating" : "8.9", 
-    "description" : "Oskar Schindler is a vainglorious and greedy German businessman who becomes an unlikely humanitarian amid the barbaric German Nazi reign when he feels compelled to turn his factory into a refuge for Jews. Based on the true story of Oskar Schindler who managed to save about 1100 Jews from being gassed at the Auschwitz concentration camp, it is a testament to the good in all of us.", 
-    "title" : "Schindler's List", 
-    "rank" : NumberInt(6), 
-    "director" : "Steven Spielberg", 
+{
+    "_id" : ObjectId("59ae4c6c1ccb5826040a380c"),
+    "rating" : "8.9",
+    "description" : "Oskar Schindler is a vainglorious and greedy German businessman who becomes an unlikely humanitarian amid the barbaric German Nazi reign when he feels compelled to turn his factory into a refuge for Jews. Based on the true story of Oskar Schindler who managed to save about 1100 Jews from being gassed at the Auschwitz concentration camp, it is a testament to the good in all of us.",
+    "title" : "Schindler's List",
+    "rank" : NumberInt(6),
+    "director" : "Steven Spielberg",
     "actors" : [
-        "Liam Neeson", 
-        "Ralph Fiennes", 
+        "Liam Neeson",
+        "Ralph Fiennes",
         "Ben Kingsley"
-    ], 
+    ],
     "posters" : [
-        "https://images-na.ssl-images-amazon.com/images/M/MV5BNDE4OTMxMTctNmRhYy00NWE2LTg3YzItYTk3M2UwOTU5Njg4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX182_CR0,0,182,268_AL_.jpg", 
-        "https://images-na.ssl-images-amazon.com/images/M/MV5BMTgwNzg3MDkxM15BMl5BanBnXkFtZTcwMzA2MDAxMw@@._V1_SY1000_CR0,0,1459,1000_AL_.jpg", 
-        "https://images-na.ssl-images-amazon.com/images/M/MV5BMTc4NTA1OTE4Nl5BMl5BanBnXkFtZTcwODA2MDAxMw@@._V1_SY1000_CR0,0,1503,1000_AL_.jpg", 
-        "https://images-na.ssl-images-amazon.com/images/M/MV5BMTM4OTczNjU1OF5BMl5BanBnXkFtZTcwMzU2MDAxMw@@._V1_SY1000_CR0,0,673,1000_AL_.jpg", 
-        "https://images-na.ssl-images-amazon.com/images/M/MV5BMTYxNDExMDI3NV5BMl5BanBnXkFtZTcwMDY2MDAxMw@@._V1_SY1000_CR0,0,1497,1000_AL_.jpg", 
+        "https://images-na.ssl-images-amazon.com/images/M/MV5BNDE4OTMxMTctNmRhYy00NWE2LTg3YzItYTk3M2UwOTU5Njg4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "https://images-na.ssl-images-amazon.com/images/M/MV5BMTgwNzg3MDkxM15BMl5BanBnXkFtZTcwMzA2MDAxMw@@._V1_SY1000_CR0,0,1459,1000_AL_.jpg",
+        "https://images-na.ssl-images-amazon.com/images/M/MV5BMTc4NTA1OTE4Nl5BMl5BanBnXkFtZTcwODA2MDAxMw@@._V1_SY1000_CR0,0,1503,1000_AL_.jpg",
+        "https://images-na.ssl-images-amazon.com/images/M/MV5BMTM4OTczNjU1OF5BMl5BanBnXkFtZTcwMzU2MDAxMw@@._V1_SY1000_CR0,0,673,1000_AL_.jpg",
+        "https://images-na.ssl-images-amazon.com/images/M/MV5BMTYxNDExMDI3NV5BMl5BanBnXkFtZTcwMDY2MDAxMw@@._V1_SY1000_CR0,0,1497,1000_AL_.jpg",
         "https://images-na.ssl-images-amazon.com/images/M/MV5BNDE4OTMxMTctNmRhYy00NWE2LTg3YzItYTk3M2UwOTU5Njg4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SY1000_CR0,0,666,1000_AL_.jpg"
     ]
 }
-{ 
-    "_id" : ObjectId("59ae4c821ccb5826040a380d"), 
-    "rating" : "8.9", 
-    "description" : "The defense and the prosecution have rested and the jury is filing into the jury room to decide if a young man is guilty or innocent of murdering his father. What begins as an open-and-shut case of murder soon becomes a detective story that presents a succession of clues creating doubt, and a mini-drama of each of the jurors' prejudices and preconceptions about the trial, the accused, and each other. Based on the play, all of the action takes place on the stage of the jury room.", 
-    "title" : "12 Angry Men", 
-    "rank" : NumberInt(5), 
-    "director" : "Sidney Lumet", 
+{
+    "_id" : ObjectId("59ae4c821ccb5826040a380d"),
+    "rating" : "8.9",
+    "description" : "The defense and the prosecution have rested and the jury is filing into the jury room to decide if a young man is guilty or innocent of murdering his father. What begins as an open-and-shut case of murder soon becomes a detective story that presents a succession of clues creating doubt, and a mini-drama of each of the jurors' prejudices and preconceptions about the trial, the accused, and each other. Based on the play, all of the action takes place on the stage of the jury room.",
+    "title" : "12 Angry Men",
+    "rank" : NumberInt(5),
+    "director" : "Sidney Lumet",
     "actors" : [
-        "Henry Fonda", 
-        "Lee J. Cobb", 
+        "Henry Fonda",
+        "Lee J. Cobb",
         "Martin Balsam"
-    ], 
+    ],
     "posters" : [
-        "https://images-na.ssl-images-amazon.com/images/M/MV5BYzNlNWRmNjgtYWZlOS00MTQ1LTk5MjItODFmNThjNzM1MTM5L2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_UX182_CR0,0,182,268_AL_.jpg", 
+        "https://images-na.ssl-images-amazon.com/images/M/MV5BMWU4N2FjNzYtNTVkNC00NzQ0LTg0MjAtYTJlMjFhNGUxZDFmXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_UX182_CR0,0,182,268_AL_.jpg",
         "https://images-na.ssl-images-amazon.com/images/M/MV5BMTk3ODA1NjAxN15BMl5BanBnXkFtZTgwNDAwNDU5MTE@._V1_SY1000_CR0,0,1269,1000_AL_.jpg", 
         "https://images-na.ssl-images-amazon.com/images/M/MV5BOTI3Nzk2NjE3Nl5BMl5BanBnXkFtZTgwNTAwNDU5MTE@._V1_SY1000_SX720_AL_.jpg", 
         "https://images-na.ssl-images-amazon.com/images/M/MV5BNDAxOTM1Nzg2Nl5BMl5BanBnXkFtZTgwNjAwNDU5MTE@._V1_SY1000_SX1250_AL_.jpg", 
